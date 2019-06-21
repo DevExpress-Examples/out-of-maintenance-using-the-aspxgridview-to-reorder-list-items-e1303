@@ -6,6 +6,9 @@
 * [Default.aspx.cs](./CS/WebSite/Default.aspx.cs) (VB: [Default.aspx.vb](./VB/WebSite/Default.aspx.vb))
 <!-- default file list end -->
 # Using the ASPxGridView to reorder list items
+<!-- run online -->
+**[[Run Online]](https://codecentral.devexpress.com/e1303/)**
+<!-- run online end -->
 
 
 <p>In this example, the ASPxGridView is used to reorder a list stored in the Session state.<br />
