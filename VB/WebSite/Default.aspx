@@ -19,8 +19,12 @@
 			<SettingsLoadingPanel Mode="Disabled" />
 			<Templates>
 				<StatusBar>
-					<input type="button" onclick="grid.PerformCallback('up')" value="Move up" />
-					<input type="button" onclick="grid.PerformCallback('down')" value="Move down" />
+					<dx:ASPxButton ID="ASPxButton1" runat="server" Text="MoveUp" AutoPostBack="false">
+                        <ClientSideEvents Click="function(){ grid.PerformCallback('up');}" />
+                    </dx:ASPxButton>
+					<dx:ASPxButton ID="ASPxButton2" runat="server" Text="MoveDown" AutoPostBack="false">
+						<ClientSideEvents Click="function(){ grid.PerformCallback('down');}" />
+					</dx:ASPxButton>
 				</StatusBar>
 			</Templates>
 		</dx:ASPxGridView>
